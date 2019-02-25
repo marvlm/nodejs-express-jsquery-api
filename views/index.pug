@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  label Sorting Field
+    select#sortingField  
+    button#sort Sort
+  div#jsGrid   
+  script(src='https://cdnjs.cloudflare.com/ajax/libs/jsgrid/1.5.3/jsgrid.min.js')
+  script(src='/js/usersGrid.js')
