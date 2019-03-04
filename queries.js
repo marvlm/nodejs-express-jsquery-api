@@ -6,8 +6,9 @@ var options = {
 };
 
 var pgp = require('pg-promise')(options);
-var connectionString = 'postgres://postgres:postgres@localhost:5433/postgres';
-var db = pgp(connectionString);
+var connectionString = 'postgres://postgres:postgres@localhost:5433/#####';
+var db = pgp(connectionString); 
+
 
 function getAllUsers(req, res, next) {
     db.any('SELECT * from Users')

@@ -1,0 +1,8 @@
+{
+    "connection":{
+        "server"  : "narviamedia.database.windows.net",
+        "userName": "nmadmin@narviamedia.database.windows.net",
+        "password": "market1NG",
+        "options": { "encrypt": true, "database": "MarketingPlatform" }
+      }
+}
